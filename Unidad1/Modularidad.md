@@ -9,6 +9,7 @@ En programación, a esta técnica se la conoce como modularización (paradigma d
 - Para que las funciones se ejecuten deben estar ancladas a un programa principal (main).
 <img width="903" height="625" alt="image" src="https://github.com/user-attachments/assets/e82fdfbf-aedd-466b-9682-dcab46e083c3" />
 <br>
+<br>
 
 Aqui se presenta un ejemplo practico de programacion modular:
 
