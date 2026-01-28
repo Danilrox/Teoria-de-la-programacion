@@ -10,7 +10,7 @@
 <br>
 <br>
 
-[APE 2. Implementación de funciones utilizando el paso de parámetros por valor y por referencia Archivo](Tareasentregadas3/APE2.c)
+[APE 2. Implementación de funciones utilizando el paso de parámetros por valor y por referencia Archivo](TareasEntregadas3/APE2.c)
 
 ### 🧑‍💻 AA - Aprendizaje Autónomo
 [AA 1. Curso Fundamentos de Python 1. Computación UNL](TareasEntregadas3/AA1.pdf)
