@@ -27,7 +27,7 @@ int main() {
     return 0;
 }
 ```
-En el presente ejemplo se creó el modulo sumar que realica la funcion de sumar dos numeros enteros y retorna su respuesta. Dentro de la funcion main se llama al moduulo sumar y se impreme la respuesta en la terminal.
+En el presente ejemplo se creó la funcion sumar que realiza la funcion de sumar dos numeros enteros y retorna su respuesta. Dentro de la funcion main se llama a la funcion sumar y se impreme la respuesta en la terminal.
 
 ---
 
