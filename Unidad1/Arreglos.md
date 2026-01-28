@@ -23,7 +23,12 @@
 int main() {
     int numeros[4] = {5, 10, 15, 20}; // Arreglo de 1 dimension con 4 datos.
 
-    printf("Primer elemento: %d\n", numeros[0]); // Imprime el primer elemento del arreglo
+     // Imprime todos los elementos del arreglo
+    for (int i= 0; i < 5; i++) 
+    {
+        printf("Elemento en la posicion: %i: %i\n", i, lista[i]);
+    }
+
     return 0;
 }
 
@@ -33,5 +38,16 @@ int main() {
 <img width="480" height="360" alt="image" src="https://github.com/user-attachments/assets/c54009c7-4aca-4644-a166-5c60df759947" />
 
 - Tiene vairas filas y columnas, llamados tambien matriz.
+- La representación es m[i][j], donde i es el número de filas y j número de columnas.
+- Como declarar un arreglo bidimensional e C:
+
+```
+<Tipo de dato> <Identifcador> <[numero del filas]> <[numero de columnas]>
+```
+
+- Ejemplo:
+```
+<Tipo de dato> <Identifcador> <[numero del filas]> <[numero de columnas]>
+```
 
 
