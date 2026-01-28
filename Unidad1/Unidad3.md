@@ -2,7 +2,7 @@
 ## [↩️ Volver a la portada](index.md)
 ### [• 🗂️ Modularidad](Modularidad.md)
 ### [• 📚 Arreglos](Arreglos.md)
-### [• Principales dificultades en la aplicaciónde los contenidos.](DificultadesUnidad3.md)
+### [• ⚙️ Principales dificultades en la aplicaciónde los contenidos.](DificultadesUnidad3.md)
 ### [• Reflexion crítica de los aprendizajes de la unidad.](DificultadesUnidad3.md)
 ### [• Tareas entregadas](tareasEntregadasUnidad2.md)
 
