@@ -1,4 +1,4 @@
-# 🧩 Unidad 2: Programación Modular y Estructuras de Datos Estáticas
+# 🧩 Unidad 3: Programación Modular y Estructuras de Datos Estáticas
 ## [↩️ Volver a la portada](index.md)
 ### [Modularidad)](Modularidad.md)
 ### [Arreglos](Arreglos.md)
