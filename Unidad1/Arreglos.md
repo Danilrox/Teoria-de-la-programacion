@@ -31,12 +31,11 @@ int main() {
 
     return 0;
 }
-
 ```
+<br>
 
 ### 📚📚 Bidimensional 
 <img width="480" height="360" alt="image" src="https://github.com/user-attachments/assets/c54009c7-4aca-4644-a166-5c60df759947" />
-
 - Tiene vairas filas y columnas, llamados tambien matriz.
 - La representación es m[i][j], donde i es el número de filas y j número de columnas.
 - Como declarar un arreglo bidimensional e C:
