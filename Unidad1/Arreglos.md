@@ -44,7 +44,6 @@ int main() {
 ```
 <Tipo de dato> <Identifcador> <[numero del filas]> <[numero de columnas]>
 ```
-
 - Ejemplo:
 ```
 int main() {
@@ -72,8 +71,55 @@ int main() {
     }
     return 0;
 }
-
-
 ```
+<br>
+
+### 📚📚📚 Tridimensional
+<img width="514" height="361" alt="image" src="https://github.com/user-attachments/assets/2f3dfcb4-5329-4606-a701-ed9a1351a15a" />
+
+- Tiene enemos filas, columnas, y de profundidad.
+- La representación es m[i][j][k], donde i es la profundidad, j el número de filas y k el número de columnas.
+- Como declarar un arreglo tridimensional en C:
+```
+<Tipo de dato> <Identifcador> <[numero de capas]> <[numero del filas]> <[numero de columnas]>
+```
+-Ejemplo:
+```
+#include <stdio.h>
+
+int main() {
+int cubo [2][3][2]; // Arreglo tridimensional con 3 capas
+
+    cubo [0][0][0] = 1;
+    cubo [0][0][1] = 5;
+    cubo [0][1][0] = 8;
+    cubo [0][1][1] = 3;
+    cubo [0][2][0] = 2;
+    cubo [0][2][1] = 3;
+
+    cubo [1][0][0] = 6;
+    cubo [1][0][1] = 8;
+    cubo [1][1][0] = 8;
+    cubo [1][1][1] = 5;
+    cubo [1][2][0] = 7;
+    cubo [1][2][1] = 9;
+
+    // Bucle for para imprimir todo los datos del arreglo tridimensional
+    for (int i= 0; i < 3; i++)
+    {
+        for (int j= 0; j < 4; j++)
+        {
+            for (int k= 0; k < 3; k++) 
+            {
+                printf("Elemento en la posicion (capa: %i, fila %i y columna %i): %i\n", i, j, k, cubo[i][j][k]);
+            }
+        }
+    }
+    return 0;
+}
+```
+
+
+
 
 
