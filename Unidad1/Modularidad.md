@@ -1,10 +1,16 @@
 ## 🗂️ Modularidad
-es una forma de programar donde un programa grande se divide en partes pequeñas e independientes, llamadas módulos, para que sea más fácil de entender, desarrollar y mantener.
+Cuando tenemos algoritmos largos y complejos, una técnica para reducir la complejidad es dividir el programa grande en subprogramas pequeños.
+En programación, a esta técnica se la conoce como modularización (paradigma de programación). Estos módulos reciben el nombre de: procesos, funciones, etc.
 
-### 📦 Modulo: 
-Cada módulo se encarga de una tarea específica y puede ser una función, un archivo o un conjunto de funciones relacionadas; además, tiene una responsabilidad clara, puede reutilizarse en otros programas y probarse de manera independiente. 
 
-Aqui se presenta un ejemplo practico de programacion modulada:
+### 📦 Funciones: 
+- Una función es un conjunto de sentencias que realiza una tarea determinada, responde a un propósito único e identificable.
+- En el lenguaje se puede determinar dos tipos de funciones las que están predeterminadas por el lenguaje, por ejemplo, librerías #include <stdio.h>, y las que están definidas por el desarrollador.
+- Para que las funciones se ejecuten deben estar ancladas a un programa principal (main).
+<img width="903" height="625" alt="image" src="https://github.com/user-attachments/assets/e82fdfbf-aedd-466b-9682-dcab46e083c3" />
+<br>
+
+Aqui se presenta un ejemplo practico de programacion modular:
 
 ```
 #include <stdio.h>
