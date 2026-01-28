@@ -22,6 +22,8 @@ int main() {
 ```
 En el presente ejemplo se creó el modulo sumar que realica la funcion de sumar dos numeros enteros y retorna su respuesta. Dentro de la funcion main se llama al moduulo sumar y se impreme la respuesta en la terminal.
 
+---
+
 ## 📤 Pase de parametros:
 el mecanismo que permite que los módulos (funciones) se comuniquen entre sí, enviándose información para poder trabajar juntos sin depender directamente de variables globales.
 
