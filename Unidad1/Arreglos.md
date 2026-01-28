@@ -10,6 +10,7 @@
 - Solo tiene una fila y columnas, llamados vector o lista.
 - Las posiciones del arreglo son llamadas índices y siempre empiezan en cero.
 - Como declarar un arreglo unidimensional en C:
+
 ```
 <Tipo de dato> <Identifcador> [<numero del elemento>]
 ```
