@@ -22,7 +22,7 @@ Cuerpo de la funcion
 dato de retorno
 }
 ```
-Aqui se presenta un ejemplo practico de programacion modular:
+### Ejemplo de programaciòn modular:
 
 ```
 #include <stdio.h>
