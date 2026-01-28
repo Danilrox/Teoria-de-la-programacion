@@ -21,9 +21,9 @@
 #include <stdio.h>
 
 int main() {
-    int numeros[4] = {5, 10, 15, 20}; // Arreglo de 1 dimension con 4 datos.
+    int numeros[4] = {5, 10, 15, 20}; // Arreglo de una dimension y 4 datos.
 
-     // Imprime todos los elementos del arreglo
+    // Bucle for para imprimir todos los elementos del arreglo
     for (int i= 0; i < 5; i++) 
     {
         printf("Elemento en la posicion: %i: %i\n", i, lista[i]);
@@ -47,7 +47,33 @@ int main() {
 
 - Ejemplo:
 ```
-<Tipo de dato> <Identifcador> <[numero del filas]> <[numero de columnas]>
+int main() {
+    int matriz [3][4]; // Arreglo bidimensional y 12 datos
+    matriz [0][0] = 1;
+    matriz [0][1] = 5;
+    matriz [0][2] = 8;
+    matriz [0][3] = 3;
+    matriz [1][0] = 2;
+    matriz [1][1] = 3;
+    matriz [1][2] = 6;
+    matriz [1][3] = 8;
+    matriz [2][0] = 5;
+    matriz [2][1] = 7;
+    matriz [2][2] = 9;
+    matriz [2][3] = 4;
+
+    // Bucle for para imprimir toda la martriz bidimensional 
+    for (int i= 0; i < 3; i++)
+    {
+        for (int j= 0; j < 4; j++)
+        {
+            printf("Elemento en la posicion (fila %i y columna %i): %i\n", i, j, matriz[i][j]);
+        }
+    }
+    return 0;
+}
+
+
 ```
 
 
