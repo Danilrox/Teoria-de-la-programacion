@@ -11,6 +11,17 @@ En programación, a esta técnica se la conoce como modularización (paradigma d
 <br>
 <br>
 
+### 🧱 Estrucutura de una funcion:
+```
+<Tipo de dato><identificador>(Lista de parametros)
+{
+Variables locales
+
+Cuerpo de la funcion
+
+dato de retorno
+}
+```
 Aqui se presenta un ejemplo practico de programacion modular:
 
 ```
