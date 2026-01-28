@@ -13,7 +13,7 @@ En programación, a esta técnica se la conoce como modularización (paradigma d
 <br>
 
 ### 🧱 Estrucutura de una funcion:
-```
+```c
 <Tipo de dato><identificador>(Lista de parametros)
 {
 Variables locales
@@ -25,7 +25,7 @@ dato de retorno
 ```
 ### Ejemplo de programaciòn modular:
 
-```
+```c
 #include <stdio.h>
 
 // Módulo que suma dos números
@@ -44,12 +44,12 @@ En el presente ejemplo se creó la funcion sumar que realiza la funcion de sumar
 ---
 
 ## 📤 Pase de parametros:
-el mecanismo que permite que los módulos (funciones) se comuniquen entre sí, enviándose información para poder trabajar juntos sin depender directamente de variables globales.
+El mecanismo que permite que los módulos (funciones) se comuniquen entre sí, enviándose información para poder trabajar juntos sin depender directamente de variables globales.
 
 ### 📄➡️📄 Pase de parametros por valor
 Es una forma de comunicación entre módulos (funciones) en la que se envía una copia del dato original a la función. Esto significa que cualquier cambio que se realice dentro de la función no afecta a la variable original que se encuentra en el programa principal. Este tipo de pase de parámetros se usa cuando se desea que cada módulo trabaje de manera independiente, sin modificar los datos externos, lo que ayuda a mantener el código más seguro y controlado. Ejemplo:
 
-```
+```c
 #include <stdio.h>
 
 // Módulo que intenta modificar el valor
@@ -71,7 +71,7 @@ int main() {
 Es una forma de comunicación entre módulos (funciones) en la que no se envía una copia del dato, sino la dirección de memoria de la variable original. Gracias a esto, la función puede modificar directamente el valor de esa variable.
 En programación modular, este tipo de pase de parámetros se usa cuando un módulo necesita devolver cambios a otro módulo, manteniendo el código organizado sin recurrir a variables globales. Ejemplo:
 
-```
+```c
 #include <stdio.h>
 
 // Funcion que duplica el valor original
