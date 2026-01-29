@@ -20,4 +20,4 @@ El uso de módulos y funciones favoreció la organización del código, promovie
 El manejo de arreglos unidimensionales, bidimensionales y multidimensionales, así como de cadenas de caracteres, permitió organizar y manipular conjuntos de datos de forma eficiente.
 
 - Desarrollo de habilidades:
-A lo largo del ciclo se fortalecieron habilidades como la resolución de problemas, el razonamiento lógico, la autonomía en el aprendizaje y el análisis crítico del código
+A lo largo del ciclo se fortalecieron habilidades como la resolución de problemas, el razonamiento lógico, la autonomía en el aprendizaje y el análisis crítico del código.
