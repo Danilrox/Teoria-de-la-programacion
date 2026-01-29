@@ -71,7 +71,7 @@ int main() {
 - Al hacer x = x + 5, solo se modifica esa copia local.
 - El valor original no se ve afectado.
 - La función no retorna nada (void).
-- En la llamada de la funcion aumentar dentro de main Se pasa el valor de numero, no su dirección. Internamente ocurre esto:
+- En la llamada de la funcion aumentar dentro de main Se pasa el valor de numero, no su dirección. Internamente ocurre esto
 <br>
 x = 10
 <br>
