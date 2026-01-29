@@ -1,4 +1,4 @@
-## 🗂️ Modularidad
+## 🗂️ MODULARIDAD
 ## [↩️ Volver a la Unidad 3](Unidad3.md)
 Cuando tenemos algoritmos largos y complejos, una técnica para reducir la complejidad es dividir el programa grande en subprogramas pequeños.
 En programación, a esta técnica se la conoce como modularización (paradigma de programación). Estos módulos reciben el nombre de: procesos, funciones, etc.
@@ -43,7 +43,7 @@ En el presente ejemplo se creó la funcion sumar que realiza la funcion de sumar
 
 ---
 
-## 📤 Pase de parametros:
+## 📤 PASE DE PARÀMETROS:
 El mecanismo que permite que los módulos (funciones) se comuniquen entre sí, enviándose información para poder trabajar juntos sin depender directamente de variables globales.
 
 ### 📄➡️📄 Pase de parámetros por valor
