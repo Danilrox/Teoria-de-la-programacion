@@ -12,7 +12,7 @@ En programación, a esta técnica se la conoce como modularización (paradigma d
 <br>
 <br>
 
-### 🧱 Estrucutura de una funcion:
+### 🧱 Estrucutura de una funciòn:
 ```c
 <Tipo de dato><identificador>(Lista de parametros)
 {
