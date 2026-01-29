@@ -68,6 +68,7 @@ int main() {
     return 0;
 }
 ```
+### Explicaciòn:
 - La función aumenter recibe un parámetro por valor (int x).
 - x es una copia del valor que se le envía desde main.
 - Al hacer x = x + 5, solo se modifica esa copia local.
@@ -79,11 +80,15 @@ x = 10
 Luego x = 10 + 5 → x = 15
 El cambio solo afecta a x, no a numero.
 ```
+---
+
 - numero sigue valiendo 10 y se imprime en la terminal.
 
 ### 📍➡️📦 pase de parámetros por referencia 
 Es una forma de comunicación entre módulos (funciones) en la que no se envía una copia del dato, sino la dirección de memoria de la variable original. Gracias a esto, la función puede modificar directamente el valor de esa variable.
-En programación modular, este tipo de pase de parámetros se usa cuando un módulo necesita devolver cambios a otro módulo, manteniendo el código organizado sin recurrir a variables globales. Ejemplo:
+En programación modular, este tipo de pase de parámetros se usa cuando un módulo necesita devolver cambios a otro módulo, manteniendo el código organizado sin recurrir a variables globales. 
+
+### Ejemplo:
 
 ```c
 #include <stdio.h>
