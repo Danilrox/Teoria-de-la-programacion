@@ -47,7 +47,9 @@ En el presente ejemplo se creó la funcion sumar que realiza la funcion de sumar
 El mecanismo que permite que los módulos (funciones) se comuniquen entre sí, enviándose información para poder trabajar juntos sin depender directamente de variables globales.
 
 ### 📄➡️📄 Pase de parámetros por valor
-Es una forma de comunicación entre módulos (funciones) en la que se envía una copia del dato original a la función. Esto significa que cualquier cambio que se realice dentro de la función no afecta a la variable original que se encuentra en el programa principal. Este tipo de pase de parámetros se usa cuando se desea que cada módulo trabaje de manera independiente, sin modificar los datos externos, lo que ayuda a mantener el código más seguro y controlado. Ejemplo:
+Es una forma de comunicación entre módulos (funciones) en la que se envía una copia del dato original a la función. Esto significa que cualquier cambio que se realice dentro de la función no afecta a la variable original que se encuentra en el programa principal. Este tipo de pase de parámetros se usa cuando se desea que cada módulo trabaje de manera independiente, sin modificar los datos externos, lo que ayuda a mantener el código más seguro y controlado. 
+
+#### Ejemplo practicO:
 
 ```c
 #include <stdio.h>
@@ -71,13 +73,13 @@ int main() {
 - Al hacer x = x + 5, solo se modifica esa copia local.
 - El valor original no se ve afectado.
 - La función no retorna nada (void).
-- En la llamada de la funcion aumentar dentro de main Se pasa el valor de numero, no su dirección. Internamente ocurre esto
+- En la llamada de la funcion aumentar dentro de main Se pasa el valor de numero, no su dirección. Internamente ocurre esto:
 ```
 x = 10
 Luego x = 10 + 5 → x = 15
 El cambio solo afecta a x, no a numero.
 ```
-- numero sigue valiendo 10 y se imprime en la terminal
+- numero sigue valiendo 10 y se imprime en la terminal.
 
 ### 📍➡️📦 pase de parámetros por referencia 
 Es una forma de comunicación entre módulos (funciones) en la que no se envía una copia del dato, sino la dirección de memoria de la variable original. Gracias a esto, la función puede modificar directamente el valor de esa variable.
