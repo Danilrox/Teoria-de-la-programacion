@@ -61,7 +61,7 @@ numeros[3] = 20
 ```
 <Tipo de dato> <Identifcador> <[numero del filas]> <[numero de columnas]>
 ```
-- Ejemplo:
+### Ejemplo:
 ```c
 int main() {
     int matriz [3][4]; // Arreglo bidimensional y 12 datos
@@ -89,6 +89,15 @@ int main() {
     return 0;
 }
 ```
+### Explicaciòn:
+- La funciòn main() marca el inicio del programa
+- Se declara una matriz bidimensional de tipo entero.
+- La matriz tiene 3 filas y 4 columnas, lo que equivale a 12 elementos en total.
+- Se asigna los valores a la matriz.
+- El primer bucle for (i) recorre las filas de la matriz.
+- El segundo bucle for (j) recorre las columnas de cada fila.
+- Gracias a los bucles anidados, se accede a todos los elementos de la matriz.
+- El recorrido se realiza fila por fila, de izquierda a derecha y se imprime cada dato en la terminal.
 
 ---
 
@@ -101,7 +110,7 @@ int main() {
 ```
 <Tipo de dato> <Identifcador> <[numero de capas]> <[numero del filas]> <[numero de columnas]>
 ```
--Ejemplo:
+### Ejemplo
 ```c
 #include <stdio.h>
 
@@ -136,6 +145,17 @@ int cubo [2][3][2]; // Arreglo tridimensional con 3 capas
     return 0;
 }
 ```
+### Explicaciòn:
+- La ejecución del programa comienza en la función main.
+- Se declara un arreglo tridimensional de tipo entero.
+- Dimensiones del arreglo: 2 capas, 3 filas y 2 columnas.
+- Se asgina valores al arreglo:  cubo [0][0][0] = 1; .....
+- Se usan tres bucles anidados para recorrer el arreglo tridimensional:
+- i → capas
+- j → filas
+- k → columnas
+- El objetivo es imprimir todos los elementos del arreglo.
+- Se imprimen todos los valores en terminal.
 
 
 
