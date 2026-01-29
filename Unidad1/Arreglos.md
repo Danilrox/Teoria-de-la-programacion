@@ -89,7 +89,8 @@ int main() {
     return 0;
 }
 ```
-<br>
+
+---
 
 ### 📚📚📚 Tridimensional
 <img width="514" height="361" alt="image" src="https://github.com/user-attachments/assets/2f3dfcb4-5329-4606-a701-ed9a1351a15a" />
