@@ -1,11 +1,11 @@
-## 📚 Arreglos
+## 📚 ARREGLOS
 ## [↩️ Volver a la Unidad 3](Unidad3.md)
 - Los arreglos (o arrays) en programación son estructuras de datos que permiten almacenar varios datos del mismo tipo bajo un mismo nombre. Cada dato que forma parte del arreglo se denomina elemento.
 - Los elementos estan organizados en posiciones consecutivas de memoria. Cada dato se identifica mediante un índice, que indica su posición dentro del arreglo.
 
-### 🗂️ Tipos de arreglos
+## 🗂️ Tipos de arreglos
 
-### 📚 Unidimensional
+## 📚 Unidimensional
 <img width="1000" height="500" alt="image" src="https://github.com/user-attachments/assets/1319feda-fad1-4e2a-9026-96ab8cf7c323" />
 
 - Solo tiene una fila y columnas, llamados vector o lista.
@@ -16,7 +16,7 @@
 <Tipo de dato> <Identifcador> [<numero del elemento>]
 ```
 
-- Ejemplo:
+### Ejemplo:
 ```
 #include <stdio.h>
 
@@ -32,9 +32,26 @@ int main() {
     return 0;
 }
 ```
-<br>
+### Explicaciòn:
+- La función main es el punto de entrada del programa; aquí comienza la ejecución.
+- Se declara un arreglo unidimensional de tipo entero.
+- El arreglo tiene 4 elementos, almacenados en posiciones consecutivas de memoria.
+- La asignación queda así:
+```
+numeros[0] = 5
+numeros[1] = 10
+numeros[2] = 15
+numeros[3] = 20
+```
+- Se declara una variable de control i, inicializada en 0.
+- El bucle se ejecuta mientras i < 5.
+- En cada iteración, i aumenta en 1.
+- El objetivo del bucle es recorrer el arreglo para mostrar cada uno de sus elementos.
+- Finalmente se imprime cada dato con su respectivad posiciòn.
 
-### 📚📚 Bidimensional 
+--- 
+
+## 📚📚 Bidimensional 
 <img width="480" height="360" alt="image" src="https://github.com/user-attachments/assets/c54009c7-4aca-4644-a166-5c60df759947" />
 
 - Tiene vairas filas y columnas, llamados tambien matriz.
