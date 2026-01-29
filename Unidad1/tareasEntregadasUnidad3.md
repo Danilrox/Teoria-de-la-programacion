@@ -1,10 +1,6 @@
 ## 🎓💡Tareas entregadas
 ### [↩️ Volver a Unidad 3](Unidad3.md)
 
-### 👩‍🏫 ACD - Aprendizaje Contacto con el Docente
-<br>
-<br>
-
 ### 🧪 APE - Aprendizaje Práctico Experimental
 [APE 1. Construcción de funciones y procedimientos en un lenguaje de programación](TareasEntregadas3/APE1.pdf)
 <br>
