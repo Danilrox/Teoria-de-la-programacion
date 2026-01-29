@@ -17,7 +17,7 @@
 ```
 
 ### Ejemplo:
-```
+```c
 #include <stdio.h>
 
 int main() {
@@ -62,7 +62,7 @@ numeros[3] = 20
 <Tipo de dato> <Identifcador> <[numero del filas]> <[numero de columnas]>
 ```
 - Ejemplo:
-```
+```c
 int main() {
     int matriz [3][4]; // Arreglo bidimensional y 12 datos
     matriz [0][0] = 1;
@@ -101,7 +101,7 @@ int main() {
 <Tipo de dato> <Identifcador> <[numero de capas]> <[numero del filas]> <[numero de columnas]>
 ```
 -Ejemplo:
-```
+```c
 #include <stdio.h>
 
 int main() {
