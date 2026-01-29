@@ -49,7 +49,7 @@ El mecanismo que permite que los módulos (funciones) se comuniquen entre sí, e
 ### 📄➡️📄 Pase de parámetros por valor
 Es una forma de comunicación entre módulos (funciones) en la que se envía una copia del dato original a la función. Esto significa que cualquier cambio que se realice dentro de la función no afecta a la variable original que se encuentra en el programa principal. Este tipo de pase de parámetros se usa cuando se desea que cada módulo trabaje de manera independiente, sin modificar los datos externos, lo que ayuda a mantener el código más seguro y controlado. 
 
-### Ejemplo practico:
+### Ejemplo:
 
 ```c
 #include <stdio.h>
