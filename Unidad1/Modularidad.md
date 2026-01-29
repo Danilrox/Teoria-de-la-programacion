@@ -72,13 +72,11 @@ int main() {
 - El valor original no se ve afectado.
 - La función no retorna nada (void).
 - En la llamada de la funcion aumentar dentro de main Se pasa el valor de numero, no su dirección. Internamente ocurre esto
-<br>
+```
 x = 10
-<br>
 Luego x = 10 + 5 → x = 15
-<br>
 El cambio solo afecta a x, no a numero.
-<br>
+```
 - numero sigue valiendo 10 y se imprime en la terminal
 
 ### 📍➡️📦 pase de parámetros por referencia 
