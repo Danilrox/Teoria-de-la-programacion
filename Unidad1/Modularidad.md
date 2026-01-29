@@ -74,15 +74,17 @@ int main() {
 - Al hacer x = x + 5, solo se modifica esa copia local.
 - El valor original no se ve afectado.
 - La función no retorna nada (void).
-- En la llamada de la funcion aumentar dentro de main Se pasa el valor de numero, no su dirección. Internamente ocurre esto:
+- Dentro de la funcion main comienza la ejecuciòn del programa.
+- Se crea la variable numero y se le asigna el valor 10.
+- En la llamada de la funcion aumentar dentro de main() Se pasa el valor de numero, no su dirección. Internamente ocurre esto:
 ```
 x = 10
 Luego x = 10 + 5 → x = 15
 El cambio solo afecta a x, no a numero.
 ```
----
-
 - numero sigue valiendo 10 y se imprime en la terminal.
+
+---
 
 ### 📍➡️📦 pase de parámetros por referencia 
 Es una forma de comunicación entre módulos (funciones) en la que no se envía una copia del dato, sino la dirección de memoria de la variable original. Gracias a esto, la función puede modificar directamente el valor de esa variable.
@@ -104,8 +106,23 @@ int main() {
     printf("%d\n", numero); // Imprime 10
     return 0;
 }
-
 ```
+
+### Explicaciòn:
+- La función duplicar recibe un puntero a entero (int *x).
+- x almacena la dirección de memoria de una variable.
+- *x accede al valor almacenado en esa dirección.
+- La instrucción *x = *x * 2; duplica el valor original al que apunta x.
+- En la funcion main() se crea la variable numero y se le asigna el valor inicial de numero.
+- Se pasa la dirección de memoria de numero usando &.
+```
+duplicar(&numero);
+```
+- Dentro de la función duplicar(int *x) x apunta a la dirección de numero.
+- *x accede directamente al valor de numero.
+- Se realiza la operación: 5 * 2 = 10.
+- El valor de numero sí se modifica, porque se trabaja sobre la misma dirección de memoria.
+- Ahora numero vale 10 y se muestra en pantalla.
 
 
 
